@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!--<Protobuf Include="Proto\google\api\annotations.proto"/>
-    <Protobuf Include="Proto\google\api\http.proto"/>
-    <Protobuf Include="Proto\google\api\*.proto">
-      <Link>Proto\google\api\%(Filename)%(Extension)</Link>
-    </Protobuf>-->
     <Protobuf Include="Proto\greet.proto" GrpcServices="Server"/>
     <Protobuf Update="Proto\**\*.proto" ProtoRoot="Proto"/>
   </ItemGroup>
