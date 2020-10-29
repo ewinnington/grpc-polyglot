@@ -1,0 +1,6 @@
+bin
+obj
+.vscode
+Properties
+*.json
+*.dll
